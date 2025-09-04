@@ -44,8 +44,6 @@ export default function Home() {
       />
 
       <button
-        // disabled={loading && !resumeText && !jobDescription}
-        // disabled={loading || !resumeText || !jobDescription}
         disabled={loading || !resumeText || !jobDescription}
         onClick={handleGenerate}
         className="px-6 py-2 bg-blue-600 rounded-lg hover:bg-blue-500"
