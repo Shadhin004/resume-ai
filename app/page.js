@@ -24,7 +24,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gray-900 text-white p-6 flex flex-col items-center">
       <h1 className="text-2xl font-bold mb-6">
-        AI Resume & Cover Letter Generator
+        AI Resume Generator
       </h1>
 
       <textarea
